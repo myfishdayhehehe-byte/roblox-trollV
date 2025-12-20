@@ -73,7 +73,6 @@ toggle.MouseButton1Click:Connect(function()
 	toggle.Text = enabled and "Aim Assist: ON" or "Aim Assist: OFF"
 end)
 
--- TOGGLE UI
 UIS.InputBegan:Connect(function(i,gp)
 	if gp then return end
 	if i.KeyCode == Enum.KeyCode.T then
